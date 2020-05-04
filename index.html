@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img src="/images/logo.jpg" alt="plate with food logo" id="header-img">
+      </div>
+      <nav id="nav-bar"> <!--needs sticky-->
+        <ul>
+          <li><a href="#features" class="nav-link"></a></li>
+          <li><a href="#how-it-works" class="nav-link"></a></li>
+          <li><a href="#pricing" class="nav-link"></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section>
+        <h1>FitMeals | Change your life</h1>
+        <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+          <input required type="email" name="email" value="email" id="email" placeholder="Enter your email address">
+          <input type="submit" name="submit" value="Learn More" id="submit">
+        </form>
+      <section class="features" id="features">
+        <div class="row">
+          <div class="icon">
+            <img src="/images/food.svg" alt="">
+          </div>
+          <div class="description">
+            <h2>Custom Meals</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet erat nulla, at hendrerit nibh mattis sit amet.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="icon">
+            <img src="/images/gym.svg" alt="">
+          </div>
+          <div class="description">
+            <h2>Custom Workouts</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet erat nulla, at hendrerit nibh mattis sit amet.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="icon">
+            <img src="/images/pie_chart.svg" alt="">
+          </div>
+          <div class="description">
+            <h2></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet erat nulla, at hendrerit nibh mattis sit amet.</p>
+          </div>
+        </div>
+      </section>
+      <section class="how-it-works" id="how-it-works">
+        <div>
+          <h2>How it Works</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/j8SCp6fha1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+        </div>
+      </section>
+      <section class="pricing" id="pricing">
+        <div class="card">
+          <h2>Basic</h2>
+          <h3>$250</h3>
+          <ul>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+          <button>Select</button>
+        </div>
+        <div class="card">
+          <h2>Advanced</h2>
+          <h3>$350</h3>
+          <ul>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+          <button>Select</button>
+        </div>
+        <div class="card">
+          <h2>Pro</h2>
+          <h3>$400</h3>
+          <ul>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+          <button>Select</button>
+        </div>
+      </section>
+
+      <footer>
+        <ul>
+          <li>Privacy</li>
+          <li>T&C</li>
+          <li>Contact</li>
+        </ul>
+        <span>Copyright 2020 | FitMeals</span>
+      </footer>
+
+    </main>
+  </body>
+</html>
