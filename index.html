@@ -8,90 +8,97 @@
   <body>
     <header id="header">
       <div class="logo">
-        <img src="/images/logo.jpg" alt="plate with food logo" id="header-img">
+        <img src="./logo.png" alt="Food Logo" id="header-img">
+        <p class="responsive-mobile-small">FitMeals</p>
       </div>
-      <nav id="nav-bar"> <!--needs sticky-->
+      <nav id="nav-bar">
         <ul>
-          <li><a href="#features" class="nav-link"></a></li>
-          <li><a href="#how-it-works" class="nav-link"></a></li>
-          <li><a href="#pricing" class="nav-link"></a></li>
+          <li><a href="#features" class="nav-link responsive-mobile-small">Features</a></li>
+          <li><a href="#how-it-works" class="nav-link responsive-mobile-small">How it Works</a></li>
+          <li><a href="#pricing" class="nav-link responsive-mobile-small">Pricing</a></li>
         </ul>
       </nav>
     </header>
     <main class="container">
-      <section>
+      <section id="intro-section">
         <h1>FitMeals | Change your life</h1>
         <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
-          <input required type="email" name="email" value="email" id="email" placeholder="Enter your email address">
+          <input required type="email" name="email" value="" id="email" placeholder="Enter your email address">
           <input type="submit" name="submit" value="Learn More" id="submit">
         </form>
+      </section>
       <section class="features" id="features">
         <div class="row">
           <div class="icon">
-            <img src="/images/food.svg" alt="">
+            <i class="fas fa-utensils"></i>
           </div>
           <div class="description">
-            <h2>Custom Meals</h2>
+            <h2>Meals</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet erat nulla, at hendrerit nibh mattis sit amet.</p>
           </div>
         </div>
         <div class="row">
           <div class="icon">
-            <img src="/images/gym.svg" alt="">
+            <i class="fas fa-dumbbell"></i>
           </div>
           <div class="description">
-            <h2>Custom Workouts</h2>
+            <h2>Workouts</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet erat nulla, at hendrerit nibh mattis sit amet.</p>
           </div>
         </div>
         <div class="row">
           <div class="icon">
-            <img src="/images/pie_chart.svg" alt="">
+            <i class="fas fa-chart-pie"></i>
           </div>
           <div class="description">
-            <h2></h2>
+            <h2>Macros</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet erat nulla, at hendrerit nibh mattis sit amet.</p>
           </div>
         </div>
       </section>
       <section class="how-it-works" id="how-it-works">
         <div>
-          <h2>How it Works</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/j8SCp6fha1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/j8SCp6fha1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
         </div>
       </section>
       <section class="pricing" id="pricing">
         <div class="card">
           <h2>Basic</h2>
-          <h3>$250</h3>
-          <ul>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum dolor</li>
-            <li>Lorem ipsum.</li>
-          </ul>
+          <div class="card-content">
+            <h3>$250</h3>
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor</li>
+              <li>Lorem ipsum.</li>
+            </ul>
+          </div>
           <button>Select</button>
         </div>
         <div class="card">
           <h2>Advanced</h2>
-          <h3>$350</h3>
-          <ul>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum dolor</li>
-            <li>Lorem ipsum.</li>
-          </ul>
+          <div class="card-content">
+            <h3>$350</h3>
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor</li>
+              <li>Lorem ipsum.</li>
+            </ul>
+          </div>
           <button>Select</button>
         </div>
         <div class="card">
           <h2>Pro</h2>
-          <h3>$400</h3>
-          <ul>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum dolor</li>
-            <li>Lorem ipsum.</li>
-          </ul>
+          <div class="card-content">
+            <h3>$400</h3>
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor</li>
+              <li>Lorem ipsum.</li>
+            </ul>
+          </div>
           <button>Select</button>
         </div>
       </section>
@@ -106,5 +113,6 @@
       </footer>
 
     </main>
+    <script src="https://kit.fontawesome.com/e6c600e660.js" crossorigin="anonymous"></script>
   </body>
 </html>
